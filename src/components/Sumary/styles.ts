@@ -25,9 +25,15 @@ export const Container = styled.main`
       line-height: 3rem
     }
 
-    &.highlight-background {
+    &.highlight-background-deposit {
       background: var(--green);
       color: #FFF;
+    }
+
+    &.highlight-background-withdraw {
+      background: var(--red);
+      filter: brightness(0.9);
+      color: #fff;
     }
   }
 `;
